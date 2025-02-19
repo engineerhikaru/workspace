@@ -1,0 +1,11 @@
+{
+  "name": "mermaidcli-example",
+  "description": "Create diagrams and visualizations using text and code",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "mmdc -i input/example.mmd -o output/example.png"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^11.4.2"
+  }
+}
